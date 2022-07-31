@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-boiler",
+  "version": "1.0.0",
+  "description": "Node.js Boilerplate with Prettier and ESLint",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "cenygg",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}
