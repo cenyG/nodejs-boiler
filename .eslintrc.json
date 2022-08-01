@@ -13,6 +13,7 @@
     "node": true
   },
   "rules": {
-    "no-unused-vars": 0
+    "no-unused-vars": 0,
+    "max-len": ["error", { "code": 140, "tabWidth": 4 }]
   }
 }
