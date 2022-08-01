@@ -1,6 +1,7 @@
 {
   "name": "nodejs-boiler",
   "version": "1.0.0",
+  "type": "module",
   "description": "Node.js Boilerplate with Prettier and ESLint",
   "main": "index.js",
   "scripts": {
@@ -15,5 +16,8 @@
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
   }
 }
